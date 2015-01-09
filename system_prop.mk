@@ -3,9 +3,13 @@
 #
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=480 \
+    ro.sf.lcd_density=361 \
     ro.opengles.version=196608 \
     ro.loki_enabled=1
+
+#Rom Version
+PRODUCT_PROPERTY_OVERRIDES += \
+ ro.geneimod_version= Phinx-2.0-BETA1
 
 # Audio Configuration
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -42,7 +46,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    wifi.supplicant_scan_interval=135
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
